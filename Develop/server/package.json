@@ -6,12 +6,13 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node server.js"
+    "seed": "node seeders/seeds.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-express": "^2.15.0",
     "bcrypt": "^5.0.0",
     "express": "^4.17.1",
     "graphql": "^15.5.0",
