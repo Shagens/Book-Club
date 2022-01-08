@@ -1,7 +1,7 @@
 const { AuthenticationError } = require('apollo-server-express');
-const User  = require('../models/User');
-const Book = require('../models/Book');
-const { signToken } = require('../utils/auth');
+const User  = require('../../server/models/User');
+const Book = require('../../server/models/Book');
+const { signToken } = require('../../server/utils/auth');
 
 const resolvers = {
   Query: {
